@@ -56,3 +56,7 @@ Once the site is ready:
 - **Email:** aa_appliance@yahoo.com
 - **License:** A45443
 - **Hours:** Mon–Fri 8AM–5PM | Sat 9AM–2PM | Sun Closed
+
+## Test Website
+
+-https://adeen924.github.io/allamericanapp.com/index.html

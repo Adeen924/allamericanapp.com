@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5"/>
+  <meta name="description" content="Schedule an appliance repair service with All American Appliance Repair, Inc. in Laguna Niguel, CA. Call 949-458-8896 or fill out our form today."/>
+  <title>Schedule Service | All American Appliance Repair | Laguna Niguel, CA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-link">
+      <img src="images/2-31750109-6b57311a-61f95339-1920w.png" alt="All American Appliance Repair Logo" class="logo-img"/>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li class="has-dropdown">
+          <a href="services.html" class="nav-link">Services <span class="arrow">&#8964;</span></a>
+          <ul class="dropdown">
+            <li><a href="services.html#refrigerator">Refrigerator Repairs</a></li>
+            <li><a href="services.html#washer">Washer Repairs</a></li>
+            <li><a href="services.html#dryer">Dryer Repairs</a></li>
+            <li><a href="services.html#dishwasher">Dishwasher Repairs</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="index.html#faqs" class="nav-link">FAQs</a></li>
+        <li><a href="index.html#contact" class="nav-link">Contact Us</a></li>
+      </ul>
+    </nav>
+    <a href="tel:949-458-8896" class="header-phone">
+      <span class="phone-icon">&#9742;</span>
+      <span>949-458-8896</span>
+    </a>
+    <button class="mobile-toggle" id="mobile-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero" style="background-image: url('images/dane-deaner-wkC8EX8y9Mc-unsplash-a669dc13-1920w.jpg');">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <h1>Schedule Service</h1>
+    <p>We'll get your appliance back in working order — fast.</p>
+  </div>
+</section>
+
+<!-- ===== SCHEDULE SECTION ===== -->
+<section class="schedule-section">
+  <div class="container schedule-grid">
+    <div class="schedule-info">
+      <h2 class="section-title red">Why Choose Us?</h2>
+      <div class="schedule-reasons">
+        <div class="reason-item">
+          <span class="reason-num">01</span>
+          <div>
+            <h4>Family-Owned Since 1992</h4>
+            <p>Over 30 years of trusted service in the Laguna Niguel community and Orange County.</p>
+          </div>
+        </div>
+        <div class="reason-item">
+          <span class="reason-num">02</span>
+          <div>
+            <h4>Factory-Authorized</h4>
+            <p>Authorized for LG and specialists for Sub-Zero, KitchenAid, GE Monogram and GE Profile.</p>
+          </div>
+        </div>
+        <div class="reason-item">
+          <span class="reason-num">03</span>
+          <div>
+            <h4>100% Satisfaction Guarantee</h4>
+            <p>We stand behind our work with a full satisfaction guarantee on every repair.</p>
+          </div>
+        </div>
+        <div class="reason-item">
+          <span class="reason-num">04</span>
+          <div>
+            <h4>Transparent Pricing</h4>
+            <p>All pricing is up-front — no surprise hidden charges, ever.</p>
+          </div>
+        </div>
+      </div>
+      <div class="schedule-contact-details">
+        <h3>Prefer to Call?</h3>
+        <a href="tel:949-458-8896" class="btn btn-red btn-large">
+          <span class="phone-icon">&#9742;</span> 949-458-8896
+        </a>
+        <div class="hours-block">
+          <strong>Hours of Service:</strong>
+          <p>Monday – Friday: 8 AM – 5 PM</p>
+          <p>Saturday: 9 AM – 2 PM</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="schedule-form-wrap">
+      <h2 class="section-title red">Request an Appointment</h2>
+      <p>Fill out the form below and we will contact you as soon as possible.</p>
+      <form class="contact-form" id="schedule-form" action="https://formspree.io/f/aa_appliance@yahoo.com" method="POST">
+        <input type="hidden" name="_subject" value="New Service Request - All American Appliance Repair"/>
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required/>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="(949) 000-0000" required/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="appliance">Appliance Type *</label>
+          <select id="appliance" name="appliance" required>
+            <option value="" disabled selected>Select appliance...</option>
+            <option value="Refrigerator">Refrigerator</option>
+            <option value="Washer">Washer</option>
+            <option value="Dryer">Dryer</option>
+            <option value="Dishwasher">Dishwasher</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="brand">Brand / Model (if known)</label>
+          <input type="text" id="brand" name="brand" placeholder="e.g. LG, Sub-Zero, KitchenAid..."/>
+        </div>
+        <div class="form-group">
+          <label for="issue">Describe the Issue *</label>
+          <textarea id="issue" name="issue" rows="5" placeholder="Please describe what's happening with your appliance..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-red full-width">Submit Service Request</button>
+        <p class="form-note">We will contact you within 1 business day to confirm your appointment.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">
+      <img src="images/2-31750109-6b57311a-61f95339-1920w.png" alt="All American Appliance Repair Logo"/>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="schedule-service.html">Schedule Service</a>
+      <a href="index.html#contact">Contact Us</a>
+    </div>
+    <div class="footer-contact">
+      <a href="tel:949-458-8896">949-458-8896</a>
+      <a href="mailto:aa_appliance@yahoo.com">aa_appliance@yahoo.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 All Rights Reserved | All American Appliance Repair, Inc.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

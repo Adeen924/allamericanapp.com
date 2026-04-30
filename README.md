@@ -53,7 +53,7 @@ Once the site is ready:
 ## Business Info
 
 - **Phone:** 949-458-8896
-- **Email:** aa_appliance@yahoo.com
+- **Email:** aa_appliance@gmail.com
 - **License:** A45443
 - **Hours:** Mon–Fri 8AM–5PM | Sat 9AM–2PM | Sun Closed
 
